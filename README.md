@@ -1,6 +1,6 @@
 # OpenCheatr - OpenGuessr Location Detector
 
-![image](assets/I-pixel-u.ttf)
+![OpenCheatr App](assets/app.png)
 A desktop application that automatically detects and displays the round locations from OpenGuessr games. It monitors network traffic to capture location coordinates and displays them on an interactive map with detailed location information.
 
 ## Backstory
