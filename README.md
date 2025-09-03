@@ -39,7 +39,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+4. Install Playwright browser binaries (required for browser automation):
+
+```bash
+playwright install
+```
+
+5. Run the application:
 
 ```bash
 python3 OpenCheatr.py
