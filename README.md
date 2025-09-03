@@ -1,36 +1,19 @@
 # OpenCheatr - OpenGuessr Location Detector
 
 ![image](assets/I-pixel-u.ttf)
-
-Currently compatible with **Windows, macOS, and Linux**.
-
-A desktop application that automatically detects and displays the 5 round locations from OpenGuessr games. It monitors network traffic to capture location coordinates and displays them on an interactive map with detailed location information.
+A desktop application that automatically detects and displays the round locations from OpenGuessr games. It monitors network traffic to capture location coordinates and displays them on an interactive map with detailed location information.
 
 ## Backstory
 
-I created this tool to help with OpenGuessr gameplay by automatically detecting the 5 round locations that are normally hidden until you make your guesses. The application uses browser automation to monitor network requests and extract location coordinates, then displays them on a map for easy reference.
-
-The tool was built using Python with a modern dark-themed GUI and includes both embedded map display and browser-based map generation for detailed viewing.
+One of my friends likes to cheat in OpenGuessr, so I decided to quickly build this to cheat better than him. It's basically done as a joke - cheating is NOT cool.
 
 ## Features
 
-- 🎯 Automatic detection of OpenGuessr round locations (5 rounds per game)
+- 🎯 Automatic detection of OpenGuessr round locations
 - 🗺️ Interactive map display with numbered pins for each round
 - 📍 Detailed location information with reverse geocoding
 - 🌐 Browser-based map generation for detailed viewing
-- 🖥️ Modern dark-themed desktop interface
 - 🔄 Real-time monitoring of OpenGuessr network traffic
-- 📊 Live logging of detection events and location details
-- 🎮 Works with any OpenGuessr game session
-
-## How It Works
-
-1. **Launch Detection**: Click "LAUNCH" to start monitoring OpenGuessr
-2. **Browser Automation**: Opens a Chromium browser window to OpenGuessr.com
-3. **Network Monitoring**: Watches for location data in network requests
-4. **Location Extraction**: Automatically captures the 5 round coordinates
-5. **Map Generation**: Creates an interactive map with numbered pins
-6. **Location Details**: Provides detailed location information for each round
 
 ## Dependencies
 
@@ -67,7 +50,7 @@ python3 OpenCheatr.py
 1. **Launch the Application**: Run `OpenCheatr.py`
 2. **Start Monitoring**: Click the "LAUNCH" button
 3. **Play OpenGuessr**: A Chromium browser window will open to OpenGuessr.com
-4. **Start a Game**: Begin any OpenGuessr game - the tool will automatically detect the 5 round locations
+4. **Start a Game**: Begin any OpenGuessr game - the tool will automatically detect the round locations
 5. **View Results**: 
    - See locations on the embedded map with numbered pins
    - Check the log panel for detailed location information
@@ -87,7 +70,6 @@ python3 OpenCheatr.py
 - **Network Monitoring**: Uses Playwright to intercept OpenGuessr's location API calls
 - **Reverse Geocoding**: Uses OpenStreetMap's Nominatim service for location details
 - **Map Generation**: Creates interactive Folium maps with custom styling
-- **Cross-Platform**: Works on Windows, macOS, and Linux
 - **Real-time Updates**: Automatically updates as new locations are detected
 
 ## File Structure
