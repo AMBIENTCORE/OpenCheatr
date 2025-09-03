@@ -85,7 +85,7 @@ OpenCheatr/
 ├── OpenCheatr.py              # Main application file
 ├── assets/
 │   └── I-pixel-u.ttf         # Custom pixel font
-├── openguessr_round_map.html  # Generated map file
+├── opencheatr_round_map.html  # Generated map file
 └── README.md                  # This file
 ```
 
